@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.sldapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.SLDApp">
+        <activity android:name="com.example.sldapp.Authentication.SignUpActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.MainActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dysgraphia.DysgraphiaActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dysgraphia.WordActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dyslexia.FlashCardResultActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dyslexia.FlashcardActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dyslexia.DyslexiaActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dyscalculia.DyscalculiaActivity" android:exported="false"/>
+        <receiver android:name="com.example.sldapp.ADHD.TimerExpiredReceiver" android:enabled="true" android:exported="false"/>
+        <activity android:name="com.example.sldapp.ADHD.AdhdActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dysgraphia.LetterActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dysgraphia.CanvasActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dyscalculia.QuizResultActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Dyscalculia.QuizQuestionsActivity" android:exported="false"/>
+        <activity android:name="com.example.sldapp.Authentication.SignInActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

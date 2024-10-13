@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "191456027242",
+    "firebase_url": "https://sld-project-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sld-project",
+    "storage_bucket": "sld-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191456027242:android:f22556f4f4fc55e9bb2013",
+        "android_client_info": {
+          "package_name": "com.example.sldapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191456027242-aek3kpcl0tpv0dkbqci7tr1cfqitedtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGWSk21xoGc2Fssm6l_rO99bRwHyh5m4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191456027242-aek3kpcl0tpv0dkbqci7tr1cfqitedtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
