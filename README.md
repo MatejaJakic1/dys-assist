@@ -11,7 +11,7 @@ The application includes activities specifically designed to help with each of t
   -  Handwriting Practice: This activity focuses on improving writing skills and fine motor control, helping users enhance their handwriting by practicing specific writing exercises.
 - Dyscalculia
   -  Mathematics Quiz: A math-based quiz designed to support individuals with dyscalculia in improving their understanding of mathematical operations and procedures.
--  ADHD
+- ADHD
   -  Pomodoro Task Timer: A task management activity that uses the Pomodoro technique to assist individuals with ADHD in improving their planning and task completion skills. This activity encourages time management and focus through periodic intervals of work and rest.
 
 ## User Interface & Design
